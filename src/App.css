@@ -1,0 +1,82 @@
+/*font face*/
+@font-face {
+    font-family: Alexandria;
+    src: url(../public/Fonts/Alexandria-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Alexandria;
+    src: url(../public/Fonts/Alexandria-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Alexandria;
+    src: url(../public/Fonts/Alexandria-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Alexandria;
+    src: url(../public/Fonts/Alexandria-Light.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: Alexandria;
+    src: url(../public/Fonts/Alexandria-ExtraLight.ttf);
+    font-weight: 100;
+}
+/*font face*/
+
+
+body { 
+    font-family: Alexandria;
+    font-weight: 200;
+
+}
+.App {     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191b1f;
+    height: 100vh;  /*for all screen*/  
+    direction: rtl;
+    
+}
+.card::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  ::-webkit-scrollbar { 
+    transition: all 0.3s ease-in-out;
+  }
+  .card::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  .card::-webkit-scrollbar-thumb {
+    background: #283593; 
+    border-radius: 10px;
+    
+  }
+  
+ .tasks >  * { 
+    transition: all 0.3s ease;
+}
+ .tasks > *:hover { 
+    background-color: #c5c5c5;
+    box-shadow: 0px 7px 7px rgba(0 , 0 , 0 , 0.4);
+}
+
+
+
+.card button:active { 
+    transition:none;
+    color: white;
+    background-color:oklch(0.41 0.159 10.272);
+  
+}
+
+
+  
+
